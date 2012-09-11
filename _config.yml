@@ -1,0 +1,4 @@
+auto: true
+markdown: rdiscount
+pygments: true
+permalink: /:categories/:year-:i_month-:i_day-:title.html
