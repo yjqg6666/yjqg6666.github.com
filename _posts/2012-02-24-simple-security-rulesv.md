@@ -1,6 +1,6 @@
 ---
 layout: default
-title: []simple-security-rules-(编程语言无关)
+title: simple-security-rules-编程语言无关
 published: true
 category: php
 tags: [编程,安全]

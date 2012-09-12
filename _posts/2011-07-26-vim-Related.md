@@ -1,6 +1,6 @@
 ---
 layout: default
-title: []vim-相关知识收集
+title: vim-相关知识收集
 published: true
 category: vim
 tags: [vim,相关]

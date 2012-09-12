@@ -1,6 +1,6 @@
 ---
 layout: default
-title: []Debian-aptitude-正则匹配先收集-今后翻译
+title: Debian-aptitude-正则匹配先收集-今后翻译
 published: true
 category: Linux
 tags: [debian,aptitude,regular expression]

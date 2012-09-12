@@ -1,6 +1,6 @@
 ---
 layout: default
-title: []Could-not-open-a-connection-to-your-authentication-agent
+title: Could-not-open-a-connection-to-your-authentication-agent
 published: true
 category: Linux
 tags: [ssh-keygen]

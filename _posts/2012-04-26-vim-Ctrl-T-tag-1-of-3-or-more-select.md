@@ -1,6 +1,6 @@
 ---
 layout: default
-title: vim-Ctrl+]-Ctrl+T-tag-1-of-3-or-more按Ctrl+]有多个标签时的跳
+title: vim-Ctrl+\]-Ctrl+T-tag-1-of-3-or-more按Ctrl+\]有多个标签时的跳
 published: true
 category: vim
 tags: [vim,多标签,跳]

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: []git在公司内部的使用实践()
+title: git在公司内部的使用实践
 published: true
 category: git
 tags: [git,公司,开发,流程]
