@@ -1,0 +1,8 @@
+---
+layout: default
+title: php判断php的版本是否大于某个版本号
+published: true
+category: php
+tags: [php,div,版本号,color,style]
+---
+<div id="detail" class="detail" style="line-height: 1.3;"><p><br><div id="codeText" class="codeText"><ol style="margin-left: 0px; padding-left: 40px; " start="1" class="dp-css"><li><span style="color:#0000CC;">/</span><span style="color:#0000CC;">/</span>判断php版本是否大于等于5<span style="color:#0000CC;">.</span>2<span style="color:#0000CC;">.</span>9 以前版本的array_unique只需第一个参数 <br></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$php_version <span style="color:#0000CC;">=</span> explode<span style="color:#0000CC;">(</span><span style="color:#FF00FF;">'-'</span><span style="color:#0000CC;">,</span> phpversion<span style="color:#0000CC;">(</span><span style="color:#0000CC;">)</span><span style="color:#0000CC;">)</span><span style="color:#0000CC;">;</span><br></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$php_version <span style="color:#0000CC;">=</span> $php_version<span style="color:#0000CC;">[</span>0<span style="color:#0000CC;">]</span><span style="color:#0000CC;">;</span><br></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$php_version_ge529 <span style="color:#0000CC;">=</span> strnatcasecmp<span style="color:#0000CC;">(</span><span style="color:#0000CC;">$</span>php_version<span style="color:#0000CC;">,</span> <span style="color:#FF00FF;">'5.2.9'</span><span style="color:#0000CC;">)</span> <span style="color:#0000CC;">&gt;</span><span style="color:#0000CC;">=</span> 0 <span style="color:#0000CC;">?</span> true <span style="color:#0000CC;">:</span> false<span style="color:#0000CC;">; //=0表示版本为5.2.9 &nbsp;＝1表示大于5.2.9 =-1表示小于5.2.9</span></li></ol></div><br></p></div>
