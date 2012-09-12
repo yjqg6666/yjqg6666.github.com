@@ -1,0 +1,7 @@
+# encoding: utf-8 
+auto: true
+server: true
+markdown: rdiscount
+pygments: true
+lsi: true
+permalinks: /:categories/:year-:month-:day-:title.md
