@@ -5,7 +5,7 @@ tags: [linux, vim, php]
 ---
 <h3>Welcome to King Jin's Blog.</h3>
   <ul class="posts">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:25 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: [转载]git在公司内部的使用实践(转)
+title: []git在公司内部的使用实践()
 published: true
 category: git
 tags: [git,公司,开发,流程]
 ---
-<div id="detail" class="detail" style="line-height: 1.3;"><p>转自&nbsp;http://zeroq.me/p/451 &nbsp;作者: zeroq<div class="vimiumReset vimiumHUD" style="right: 150px; opacity: 0; display: none; "></div><div><br></div><div><p>从2011.10月左右，开始在后台组推行git版本控制，到现在也差不多半年了，也形成了一套基于git flow的副官模式工作流程：</p>
+<div id="detail" class="detail" style="line-height: 1.3;"><p>自&nbsp;http://zeroq.me/p/451 &nbsp;作者: zeroq<div class="vimiumReset vimiumHUD" style="right: 150px; opacity: 0; display: none; "></div><div><br></div><div><p>从2011.10月左右，开始在后台组推行git版本控制，到现在也差不多半年了，也形成了一套基于git flow的副官模式工作流程：</p>
 版本定义：
 <p>版本号使用x.x.x进行定义，第一个x代表大版本只有在项目有重大变更时更新<br>
 第二个x代表常规版本有新需求会更新<br>

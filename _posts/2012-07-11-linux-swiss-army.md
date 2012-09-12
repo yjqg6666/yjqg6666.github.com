@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [转载]在linux下得试试这些神器
+title: []在linux下得试试这些神器
 published: true
 category: Linux
 tags: [linux,软件,神器]

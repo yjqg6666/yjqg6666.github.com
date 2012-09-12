@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [转载]VIM-Error-detected-while-processing-function-htmlcomplete
+title: VIM-Error-detected-while-processing-function-htmlcomplete
 published: true
 category: vim
 tags: [vim,html,补全报错]

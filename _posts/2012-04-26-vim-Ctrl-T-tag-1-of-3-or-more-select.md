@@ -1,9 +1,9 @@
 ---
 layout: default
-title: vim-Ctrl+]-Ctrl+T-tag-1-of-3-or-more按Ctrl+]有多个标签时的跳转
+title: vim-Ctrl+]-Ctrl+T-tag-1-of-3-or-more按Ctrl+]有多个标签时的跳
 published: true
 category: vim
-tags: [vim,多标签,跳转]
+tags: [vim,多标签,跳]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p>1. Jump to a <a href="http://vimdoc.sourceforge.net/htmldoc/tagsrch.html#tag" target="_blank">tag</a>					*<a name="tag-commands"></a><b>tag-commands</b>*
 

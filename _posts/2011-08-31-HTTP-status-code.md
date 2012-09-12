@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [转载]HTTP-状态码
+title: []HTTP-状态码
 published: true
 category: Linux
 tags: [http,状态码]

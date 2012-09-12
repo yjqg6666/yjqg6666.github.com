@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [转载]看看这两张统计图-在国内做网页开发真不容易-码农真Coolbitter
+title: []看看这两张统计图-在国内做网页开发真不容易-码农真Coolbitter
 published: true
 category: php
 tags: [IE6,网页,开发,苦逼]

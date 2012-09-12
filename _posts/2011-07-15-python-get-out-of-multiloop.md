@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [转载]python-用异常跳出多层循环
+title: []python-用异常跳出多层循环
 published: true
 category: python
 tags: [python,跳出,循环]

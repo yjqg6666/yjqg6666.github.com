@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [转载]git-svn添加svn分支
+title: []git-svn添加svn分支
 published: true
 category: git
 tags: [git,svn,git-svn,分支]

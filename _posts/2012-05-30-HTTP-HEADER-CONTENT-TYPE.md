@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [转载]HTTP-HEADER-CONTENT-TYPE
+title: []HTTP-HEADER-CONTENT-TYPE
 published: true
 category: php
 tags: []

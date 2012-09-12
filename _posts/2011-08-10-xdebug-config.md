@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [转载]非官方xdebug配置文件
+title: []非官方xdebug配置文件
 published: true
 category: Linux
 tags: [xdebug,配置,参数]

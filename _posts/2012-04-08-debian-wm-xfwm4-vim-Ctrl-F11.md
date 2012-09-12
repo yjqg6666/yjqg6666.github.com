@@ -5,4 +5,4 @@ published: true
 category: Linux
 tags: [xfwm4,Ctrl+F11]
 ---
-<div id="detail" class="detail" style="line-height: 1.3;"><p>$xfwm4-settings<div>转到键盘标签 &nbsp;清除Ctrl+F11的键绑定</div><div><br></div></p></div>
+<div id="detail" class="detail" style="line-height: 1.3;"><p>$xfwm4-settings<div>到键盘标签 &nbsp;清除Ctrl+F11的键绑定</div><div><br></div></p></div>
