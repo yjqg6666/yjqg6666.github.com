@@ -1,11 +1,23 @@
 ---
 layout: default
-title: index_title
+title: IDEBIAN
 tags: [linux, vim, php]
 ---
 <h3>Welcome to King Jin's Blog.</h3>
   <ul class="posts">
-    {% for post in site.posts limit:25 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% for post in paginator.posts limit:25 %}
+      <li><span>{{ post.date | date_to_string }}</span>  &raquo;  <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+    <!-- Pagination links -->
+    <div class="pagination">
+        {% if paginator.previous_page == 1 %}
+        <a href="/" class="previous">上一页</a>
+      {% elsif paginator.previous_page %}
+        <a href="/page{{paginator.previous_page}}" class="previous">上一页</a>
+      {% endif %}
+      <span class="page_number ">第{{paginator.page}}页 / 共{{paginator.total_pages}}页</span>
+      {% if paginator.next_page and paginator.next != paginator.total_pages %}
+        <a href="/page{{paginator.next_page}}" class="next ">下一页</a>
+      {% endif %}
+    </div>

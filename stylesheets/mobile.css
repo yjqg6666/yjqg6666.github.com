@@ -508,3 +508,8 @@ dd p:first-child {
   font-size: .85em;
   font-style: italic;
 }
+
+.pagination {
+    text-align: center;
+    margin-top: 10px;
+}
