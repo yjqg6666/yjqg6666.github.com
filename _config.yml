@@ -5,4 +5,4 @@ markdown: rdiscount
 pygments: true
 lsi: true
 permalinks: /:categories/:year-:month-:day-:title.md
-paginate: 10
+paginate: 30
