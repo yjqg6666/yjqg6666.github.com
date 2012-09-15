@@ -5,14 +5,13 @@ tags: [linux, vim, php]
 ---
 <style>
     .gray{
-        background-color:gray;
+        background-color:GhostWhite;
     }
 </style>
-<h3>Welcome to King Jin's Blog.</h3>
   <ul class="posts" title="点击日期也可查看博客或关闭博客">
     {% for post in paginator.posts limit:25 %}
     <li><a class="post_date" href="{{post.url}}" title="点击在当前页内查看博客内容">{{post.date | date:"%Y-%m-%d"}}</a>  &raquo;  <a class="post_url" href="{{ post.url }}">{{ post.title }}</a></li>  
-    <div title="点击关闭当前博客内容" class="post_content" style="display:none;background-color:gray;"></div>
+    <div title="点击关闭当前博客内容" class="post_content" style="display:none;background-color:seashell;word-wrap:break;"></div>
     {% endfor %}
   </ul>
     <!-- Pagination links -->
