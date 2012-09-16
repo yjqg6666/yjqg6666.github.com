@@ -6,7 +6,7 @@ category: Linux
 tags: [git,eol,换行符,翻译]
 ---
 <quote>
-[转载](http://timclem.wordpress.com/2012/03/01/mind-the-end-of-your-line/ 先转载有时间的时候翻译 )
+[转载](http://timclem.wordpress.com/2012/03/01/mind-the-end-of-your-line/ "先转载有时间的时候翻译")
 </quote>
 # Mind the End of Your Line #
 
