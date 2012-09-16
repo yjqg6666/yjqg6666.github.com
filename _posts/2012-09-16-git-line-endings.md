@@ -6,7 +6,7 @@ category: Linux
 tags: [git,eol,换行符,翻译]
 ---
 <quote>
-http://timclem.wordpress.com/2012/03/01/mind-the-end-of-your-line/
+[转载](http://timclem.wordpress.com/2012/03/01/mind-the-end-of-your-line/ 先转载有时间的时候翻译 )
 </quote>
 # Mind the End of Your Line #
 
@@ -91,7 +91,7 @@ If a file is unspecified then Git falls back to the core.autocrlf setting and yo
 
 Here is an example you might use for a C# project:
 
-# These files are text and should be normalized (convert crlf => lf)
+\# These files are text and should be normalized (convert crlf => lf)
 *.cs      text diff=csharp
 *.xaml    text
 *.csproj  text
@@ -102,8 +102,8 @@ Here is an example you might use for a C# project:
 *.msbuild text
 *.md      text
 
-# Images should be treated as binary
-# (binary is a macro for -text -diff)
+\# Images should be treated as binary
+\# (binary is a macro for -text -diff)
 *.png     binary
 *.jepg    binary
 
