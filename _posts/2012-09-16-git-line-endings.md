@@ -1,10 +1,12 @@
 ---
 layout: default
-title: 关于git的换行符［转］
+title: 关于git的行结束符［转］
 published: true
 category: Linux
-tags: [git,eol,换行符,翻译]
+tags: [git,eol,行结束符,翻译]
 ---
+<div id="detail" class="detail" style="line-height: 1.3;">
+
 <quote>
 [转载](http://timclem.wordpress.com/2012/03/01/mind-the-end-of-your-line/ "先转载有时间的时候翻译")
 </quote>
@@ -115,3 +117,5 @@ One final note that the man page for gitattributes mentions is that you can tell
 
 This is certainly better than requiring everyone to be on the same global setting for core.autocrlf, but it means that you really trust Git to do binary detection properly. In my opinion it is better to explicitly specify your text files that you want normalized. Don’t forget if you are going to use this setting that it should be the first line in your .gitattributes file so that subsequent lines can override that setting.
 
+
+</div>
