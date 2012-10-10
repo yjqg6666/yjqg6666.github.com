@@ -65,15 +65,43 @@
       {% else %}
           {{ content | newline_to_br }}
       {% endif %}
+        <!-- JiaThis Button BEGIN -->
+            <div class="jiathis_style" style="margin:20px auto 20px 40px;">
+                <span class="jiathis_txt">分享到：</span>
+                <a class="jiathis_button_qzone"></a>
+                <a class="jiathis_button_tsina"></a>
+                <a class="jiathis_button_tqq"></a>
+                <a class="jiathis_button_renren"></a>
+                <a class="jiathis_button_kaixin001"></a>
+                <a href="http://www.jiathis.com/share?uid=1694121" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+                <a class="jiathis_counter_style"></a>
+            </div>
+            <script type="text/javascript">
+                var post_identifier ='{{ page.id }}';
+                var post_title = '{{ page.title }}';
+                var port_str = location.port.length == 0 ? '' : ':'+location.port;
+                var post_url = location.protocol + '//' + location.host + port_str + '{{ page.url }}';
+                var jiathis_config = {
+                    data_track_clickback:true,
+                    url:post_url,
+                    title:post_title + '##',
+                    hideMore:true
+                };
+            </script>
+            <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1347505285221609" charset="utf-8" async="true"></script>
+        <!-- JiaThis Button END -->
+
       </section>
 
       <footer>
         <p></p>
         <span class="octocat"></span>
       </footer>
-
     </div>
-    <div id="disqus_thread" style="margin:0 auto;width:670px;display:block;"></div>
+
+    {% comment %}
+    <!-- disqus begin disabled -->
+    <div id="disqus_thread" style="margin:0 auto;width:670px;display:none;"></div>
     <script type="text/javascript">
         var disqus_shortname = 'idebian'; 
         var disqus_identifier='{{ page.id }}';
@@ -94,5 +122,13 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <!-- disqus disabled end -->
+    {% endcomment %}
+
+    <!-- UY BEGIN -->
+    <div id="uyan_frame" style="margin: 0 auto;width: 670px;display:block;"></div>
+    <script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=1694121" async="true"></script>
+    <!-- UY END -->
+
   </body>
 </html>
