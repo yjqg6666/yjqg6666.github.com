@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+    <meta name="author" content="King Jin" />
+    <meta name="keywords" content="{{ page.tags | join: ',' }}" />
+    <meta name="robots" content="{{ page.robots | join: ',' }}" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+    <link rel="stylesheet" href="/stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="/stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="/stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="/javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title> {{ page.title }}</title>
+</head>
+<body>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>IDebian</h1>
+            <h2>Newbie's Growth -- Welcome to King Jin's Blog</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <div id="no-downloads">
+        <span class="inner">
+            {{ page.hint }}
+        </span>
+      </div>
+
+      <span class="banner-fix"></span>
+
+      <span style="margin:20px"></span>
+      <section id="main_content">
+      {% if page.hint %}
+          {{ content }}
+      {% else %}
+          {{ content | newline_to_br }}
+      {% endif %}
+      </section>
+
+      <footer>
+        <p></p>
+        <span class="octocat"></span>
+      </footer>
+    </div>
+  </body>
+</html>
