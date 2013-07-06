@@ -2,7 +2,7 @@
 layout: default
 title: linux-下对单个程序网络限速brandwidth-shaper
 published: true
-category: Linux
+category: linux
 tags: [linux,限网速,单个程序,进程]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p>windows下对单个程序限速 可以使用netlimiter <br><br><br>Linux可选软件(任一):&nbsp; pyshaper&nbsp;&nbsp;&nbsp; shaperd&nbsp;&nbsp;&nbsp; wondershaper trickle<br><br>pyshaper squeeze库中没有 没用过 <br>最后三个库中都有<br><br>最简单的是trickle 其余的还没研究（先实现功能要紧）<br><br>trickle -u 10 -d 20 iceweasel 启动火狐浏览器 并限制上传速度为10 KB/s 下速度为20 KB/s 

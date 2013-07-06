@@ -2,7 +2,7 @@
 layout: default
 title: Linux-相关知识汇总
 published: true
-category: Linux
+category: linux
 tags: [Linux,知识,技巧]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p><ol>

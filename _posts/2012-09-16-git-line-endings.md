@@ -2,7 +2,7 @@
 layout: default
 title: 关于git的行结束符［转］
 published: true
-category: Linux
+category: linux
 tags: [git,eol,行结束符,翻译]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

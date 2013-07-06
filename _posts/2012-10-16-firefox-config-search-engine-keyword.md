@@ -2,7 +2,7 @@
 layout: default
 title: 手工配置firefox的搜索引擎关键词
 published: true
-category: Mac
+category: mac
 tags: [firefox,keyword,searchengine,火狐,关键词,搜索引擎]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

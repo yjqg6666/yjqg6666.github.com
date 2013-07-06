@@ -2,7 +2,7 @@
 layout: default
 title: tortoisegit右键菜单不显示解决方法
 published: true
-category: Windows
+category: windows
 tags: [git,windows,tortoisegit,乌龟git,右键菜单,无响应]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

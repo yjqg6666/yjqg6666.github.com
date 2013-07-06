@@ -2,7 +2,7 @@
 layout: default
 title: apache2-只监听ipv4的80端口
 published: true
-category: Linux
+category: linux
 tags: [apache2,ipv4,80端口]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p>修改/etc/apache2/port.conf&nbsp; 的listen指令<br>Listen 80改为&nbsp; Listen 0.0.0.0:80<br><br><br>&lt;quote&gt;<br><p>When Apache starts, it binds to some port and address on

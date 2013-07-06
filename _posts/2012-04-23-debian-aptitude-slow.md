@@ -2,7 +2,7 @@
 layout: default
 title: debian-aptitude-使用一段时间后读取数据库变慢的解决方法
 published: true
-category: Linux
+category: linux
 tags: [aptitude,变慢]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p>dpkg tip

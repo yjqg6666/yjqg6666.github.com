@@ -2,7 +2,7 @@
 layout: default
 title: HTTP-状态码
 published: true
-category: Linux
+category: linux
 tags: [http,状态码]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p><br>

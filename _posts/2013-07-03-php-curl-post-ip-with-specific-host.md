@@ -2,7 +2,7 @@
 layout: default
 title: PHP-curl提交到未做dns解析的域名ip
 published: true
-category: PHP
+category: php
 tags: [测试,curl,php,ip, host]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

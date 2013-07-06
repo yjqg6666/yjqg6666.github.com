@@ -2,7 +2,7 @@
 layout: default
 title: bash_vim模式
 published: true
-category: Linux
+category: linux
 tags: [linux,key-binding]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

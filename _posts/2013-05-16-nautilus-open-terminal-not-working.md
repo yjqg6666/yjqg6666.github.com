@@ -2,7 +2,7 @@
 layout: default
 title: nautilus-open-terminal打不开终端
 published: true
-category: Linux
+category: linux
 tags: [linux,terminal,nautilus]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

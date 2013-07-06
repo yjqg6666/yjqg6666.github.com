@@ -2,7 +2,7 @@
 layout: default
 title: crontab定时运行git命令-更新代码库
 published: true
-category: Linux
+category: linux
 tags: [git,crontab]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p>Q： &nbsp;<a href="http://stackoverflow.com/questions/7994663/git-push-via-cron" target="_blank" target="_blank">http://stackoverflow.com/questions/7994663/git-push-via-cron</a><div>&nbsp;&nbsp;&nbsp;I'm trying to run a git push from cron. When I 

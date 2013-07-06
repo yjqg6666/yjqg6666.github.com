@@ -2,7 +2,7 @@
 layout: default
 title: bash内建的变量
 published: true
-category: Linux
+category: linux
 tags: [linux,bash,built-in,变量, bash编程]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

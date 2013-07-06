@@ -2,7 +2,7 @@
 layout: default
 title: Could-not-open-a-connection-to-your-authentication-agent
 published: true
-category: Linux
+category: linux
 tags: [ssh-keygen]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p>http://funkaoshi.com/blog/could-not-open-a-connection-to-your-authentication-agent<div class="vimiumReset vimiumHUD" style="right: 150px; opacity: 0; display: none; "></div><div><br></div><div><br></div><div><p><a href="http://en.wikipedia.org/wiki/Secure_Shell" target="_blank"><span class="caps">SSH</span></a>

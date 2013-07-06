@@ -2,7 +2,7 @@
 layout: default
 title: chinaunix博客备份
 published: true
-category: Linux
+category: linux
 tags: [chinaunix,博客,备份,github]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

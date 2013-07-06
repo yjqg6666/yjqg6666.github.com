@@ -2,7 +2,7 @@
 layout: default
 title: 设置gvim的字体
 published: true
-category: Linux
+category: linux
 tags: [linux,gvim,font,字体]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

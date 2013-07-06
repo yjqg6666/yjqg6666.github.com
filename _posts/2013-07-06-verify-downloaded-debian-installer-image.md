@@ -2,7 +2,7 @@
 layout: default
 title: 验证下载的debian镜像是否为官方镜像
 published: true
-category: PHP
+category: php
 tags: [测试,curl,php,ip, host]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

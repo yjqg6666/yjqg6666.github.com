@@ -2,7 +2,7 @@
 layout: default
 title: 取消百度影音关联无扩展名文件
 published: true
-category: Windows
+category: windows
 tags: [windows,百度影音,扩展名,关联]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

@@ -2,7 +2,7 @@
 layout: default
 title: Ubuntu清空密码并允许空密码登录 
 published: true
-category: Linux
+category: linux
 tags: [ubunt,清空密码,空密码登录]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">

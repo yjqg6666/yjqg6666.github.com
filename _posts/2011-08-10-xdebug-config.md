@@ -2,7 +2,7 @@
 layout: default
 title: 非官方xdebug配置文件
 published: true
-category: Linux
+category: linux
 tags: [xdebug,配置,参数]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p>[xdebug]

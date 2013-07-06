@@ -2,7 +2,7 @@
 layout: default
 title: mysql-服务器已启动-端口开启仍无法连接的解决方法
 published: true
-category: Linux
+category: linux
 tags: [服务器,mysql,10061,telnet,端口]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;"><p>权限已设置：<br><div id="codeText" class="codeText"><ol style="margin:0 1px 0 0;padding:5px 0;" start="1" class="dp-css"><li><span style="color:#000000;"><span style="color:#0000CC;">#</span>mysql<span style="color:#0000CC;">&gt;</span>grant all on <span style="color:#0000CC;">*</span><span style="color:#0000CC;">.</span><span style="color:#0000CC;">*</span> to user<span style="color:#0000CC;">@</span>ip_addr identified by <span style="color:#FF00FF;">'userpwd'</span><span style="color:#0000CC;">;</span></span></li></ol></div>端口也已打开：<br><div id="codeText" class="codeText"><ol style="margin:0 1px 0 0;padding:5px 0;" start="1" class="dp-css"><li><span style="color: rgb(0, 0, 0);"><span style="color:#0000CC;">#</span>netstat <span style="color:#0000CC;">-</span>tlnp <span style="color:#0000CC;">|</span>grep mysql</span></li><li><span style="color: rgb(0, 0, 0);">tcp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 0.0.0.0:3306&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.0.0.0:*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LISTEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9929/mysqld&nbsp; <br></span></li></ol></div>但是在windows下telnet端口始终连不上<br><br>解决方法是：<br><br>&nbsp; 注释掉配置文件中的bind_address<br><div id="codeText" class="codeText"><ol style="margin:0 1px 0 0;padding:5px 0;" start="1" class="dp-css"><li><span style="color:#000000;"><span style="color:#0000CC;">#</span><br></span></li><li>

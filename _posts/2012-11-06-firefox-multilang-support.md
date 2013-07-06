@@ -2,7 +2,7 @@
 layout: default
 title: firefox多语言界面切换
 published: true
-category: Firefox
+category: firefox
 tags: [firefox,locale,multilang,中文,英文]
 ---
 <div id="detail" class="detail" style="line-height: 1.3;">
